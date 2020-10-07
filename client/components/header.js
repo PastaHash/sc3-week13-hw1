@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom'
 
-const Header = (props) => {
+const Header = () => {
   const { userName, repositoryName } = useParams()
 
   return (
